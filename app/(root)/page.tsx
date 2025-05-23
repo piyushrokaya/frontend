@@ -1,5 +1,10 @@
-import Image from "next/image";
+
 import Hello from "@/app/components/hello";
+import { title } from "process";
+export const metadata={
+  title: "Home",
+  description: "Home page", 
+};
 
 export default function Home() {
   console.log('What am I doing here? -- SERVER/CLIENT');
